@@ -10,199 +10,205 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-color: #0ff;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 @media only screen and (min-width: 20em) {
 
   header {
-  text-align: center;
-  font-family: "Great Vibes", cursive;
-  font-size: 1rem;
-  text-shadow: 2px 2px silver;
-}
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 1rem;
+    text-shadow: 2px 2px silver;
+  }
 
   h2 {
-  font-size: 1.8rem;
-  text-shadow: 2px 2px silver;
-}
+    font-size: 1.8rem;
+    text-shadow: 2px 2px silver;
+  }
 
   .img-flex {
-  width: 13%;
-  float: left;
-  margin-top: -5em;
-}
+    width: 13%;
+    float: left;
+    margin-top: -5em;
+  }
 
   .img-flex-2 {
-  width: 13%;
-  float: right;
-  margin-top: -5em;
-}
-
-.nav {
-  margin-top: 1em;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-.nav li {
-  display: block;
-  margin-top: 1em;
-}
-
-.nav a {
-  font-family: "Indie Flower", cursive;
-  font-size: 1.3rem;
-  color: black;
-  display: inline-block;
-  padding: .3em .5em;
-  background-color: #ff0;
-  border-radius: 6px;
-  text-decoration: none;
-  margin-right: 1.5em;
-}
-
-a:hover {
-  background-color: #c3f;
-}
-
-.homepic {
-  width: 80%;
-  border: 3px solid #f39;
-  border-radius: 20px;
-  margin-left: -1.5em;
-}
-
-.homepic2 {
-  width: 80%;
-  border: 3px solid #f39;
-  border-radius: 20px;
-  margin-left: -1.5em;
-}
-
-.homepic3 {
-  width: 80%;
-  border: 3px solid #f39;
-  border-radius: 20px;
-  margin-left: -1.5em;
-}
-
-section {
-  margin-left: 4.5em;
-}
-
-.chocolatecandy {
-  width: 10%;
-  box-shadow: 12px 12px grey;
-  margin-right: 2em;
-}
-
-.chocolatebar {
-  width: 10%;
-  box-shadow: 12px 12px grey;
-  margin-right: 2em;
-
-}
-
-.chocolatepopcorn {
-  width: 10%;
-  box-shadow: 12px 12px grey;
-  margin-right: 2em;
-}
-
-.chocolatecream {
-  width: 10%;
-  box-shadow: 12px 12px grey;
-  margin-right: 2em;
-}
-
-dl {
-  padding-left: 0;
-  margin-top: 6.8em;
-  margin-bottom: 6.5em;
-}
-
-dt {
-  font-weight: bold;
-  font-family: "Bree Serif", serif;
-  font-size: 2rem;
-  color: orange;
-}
-
-dd {
-  margin: 0;
-  font-family: "Bree Serif", serif;
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-
-.person {
-  width: 100%;
-  border: 3px dashed red;
-  position: absolute;
-  left: 0;
-}
-
-p {
-  font-family: "Bree Serif", serif;
-  font-size: 3rem;
-  position: relative;
-  top: 400px;
-  left: 30px;
-  text-shadow: 7px 7px yellow;
-}
-
-.button {
-  background-color: purple;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.875rem;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
-  top: 30px;
-  left: 30px;
-  border: 2px solid yellow;
-  border-radius: 20px;
-}
-
-.location {
-  font-family: Bungee, cursive;
-  font-size: 3rem;
-  text-shadow: 7px 7px gold;
-}
-
-.house {
-  width: 100%;
-  position: relative;
-  top: 400px;
-}
-
-address {
-  position: relative;
-  top: 400px;
-  font-size: 2.5rem;
-  font-family: "Bree Serif", serif;
-}
-
-.donat {
-  width: 20%;
-  float: right;
-  position: relative;
-  bottom: 600px;
-}
-
-footer p {
-  font-size: 1rem;
-  font-family: none;
-  text-shadow: none;
-  position: relative;
-  left: 0;
-}
+    width: 13%;
+    float: right;
+    margin-top: -5em;
   }
+
+  .nav {
+    margin-top: 1em;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .nav li {
+    display: block;
+    margin-top: 1em;
+  }
+
+  .nav a {
+    font-family: "Indie Flower", cursive;
+    font-size: 1.3rem;
+    color: black;
+    display: inline-block;
+    padding: .3em .5em;
+    background-color: #ff0;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 1.5em;
+  }
+
+  a:hover {
+    background-color: #c3f;
+  }
+
+  .homepic {
+    width: 80%;
+    border: 3px solid #f39;
+    border-radius: 20px;
+    margin-left: -1.5em;
+  }
+
+  .homepic2 {
+    width: 80%;
+    border: 3px solid #f39;
+    border-radius: 20px;
+    margin-left: -1.5em;
+  }
+
+  .homepic3 {
+    width: 80%;
+    border: 3px solid #f39;
+    border-radius: 20px;
+    margin-left: -1.5em;
+  }
+
+  section {
+    margin-left: 4.5em;
+  }
+
+  .chocolatecandy {
+    width: 10%;
+    box-shadow: 12px 12px grey;
+    margin-right: 2em;
+  }
+
+  .chocolatebar {
+    width: 10%;
+    box-shadow: 12px 12px grey;
+    margin-right: 2em;
+
+  }
+
+  .chocolatepopcorn {
+    width: 10%;
+    box-shadow: 12px 12px grey;
+    margin-right: 2em;
+  }
+
+  .chocolatecream {
+    width: 10%;
+    box-shadow: 12px 12px grey;
+    margin-right: 2em;
+  }
+
+  dl {
+    padding-left: 0;
+    margin-top: 6.8em;
+    margin-bottom: 6.5em;
+  }
+
+  dt {
+    font-weight: bold;
+    font-family: "Bree Serif", serif;
+    font-size: 2rem;
+    color: orange;
+  }
+
+  dd {
+    margin: 0;
+    font-family: "Bree Serif", serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+
+  .person {
+    width: 100%;
+    border: 3px dashed red;
+    position: absolute;
+    left: 0;
+  }
+
+  p {
+    font-family: "Bree Serif", serif;
+    font-size: 3rem;
+    position: relative;
+    top: 400px;
+    left: 30px;
+    text-shadow: 7px 7px yellow;
+  }
+
+  .button {
+    background-color: purple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.875rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+  }
+
+  .location {
+    font-family: Bungee, cursive;
+    font-size: 3rem;
+    text-shadow: 7px 7px gold;
+  }
+
+  .house {
+    width: 100%;
+    position: relative;
+    top: 400px;
+  }
+
+  address {
+    position: relative;
+    top: 400px;
+    font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
+  }
+
+  .donat {
+    width: 20%;
+    float: right;
+    position: relative;
+    bottom: 600px;
+  }
+
+  footer p {
+    font-size: 1rem;
+    font-family: none;
+    text-shadow: none;
+    position: relative;
+    left: 0;
+  }
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -223,6 +229,12 @@ footer p {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    background-color: #0ff;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
   .nav li {
     display: inline-block;
   }
@@ -234,7 +246,7 @@ footer p {
   .button {
     position: relative;
     left: 165px;
-    top: 160px;
+    top: 50px;
   }
 
   p {
@@ -245,36 +257,48 @@ footer p {
 
   .location {
     font-family: Bungee, cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: 7px 7px gold;
     position: relative;
     top: 400px;
+    left: 100px;
+  }
+
+  .donat {
+    position: relative;
+    top: -100px;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    background-color: #0ff;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
   .nav {
-  margin-top: 3em;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
+    margin-top: 3em;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
 
-.nav li {
-  display: inline-block;
-}
+  .nav li {
+    display: inline-block;
+  }
 
-.nav a {
-  font-family: "Indie Flower", cursive;
-  font-size: 1.5rem;
-  color: black;
-  display: inline-block;
-  padding: .5em .9em;
-  background-color: #ff0;
-  border-radius: 6px;
-  text-decoration: none;
-  margin-right: 1.5em;
+  .nav a {
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    color: black;
+    display: inline-block;
+    padding: .5em .9em;
+    background-color: #ff0;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 1.5em;
   }
 
   .homepic {
@@ -292,74 +316,79 @@ footer p {
   }
 
   .person {
-  width: 45%;
-  border: 3px dashed red;
-  position: absolute;
-  left: 0;
-}
+    width: 45%;
+    border: 3px dashed red;
+    position: absolute;
+    left: 0;
+  }
 
-p {
-  font-family: "Bree Serif", serif;
-  font-size: 3rem;
-  position: relative;
-  left: 450px;
-  top: 24px;
-  text-shadow: 7px 7px yellow;
-}
+  p {
+    font-family: "Bree Serif", serif;
+    font-size: 3rem;
+    position: relative;
+    left: 450px;
+    top: 24px;
+    text-shadow: 7px 7px yellow;
+  }
 
-.button {
-  background-color: purple;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.875rem;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
-  left: 20px;
-  top: 20px;
-  border: 2px solid yellow;
-  border-radius: 20px;
-}
+  .button {
+    background-color: purple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.875rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+  }
 
-.location {
-  font-family: Bungee, cursive;
-  font-size: 3rem;
-  text-shadow: 7px 7px gold;
-  position: relative;
-  left: 300px;
-}
+  .location {
+    font-family: Bungee, cursive;
+    font-size: 3rem;
+    text-shadow: 7px 7px gold;
+    position: relative;
+    left: 300px;
+  }
 
-.house {
-  width: 30%;
-  position: relative;
-  top: 50px;
-}
+  .house {
+    width: 30%;
+    position: relative;
+    top: 50px;
+  }
 
-address {
-  float: right;
-  position: relative;
-  top: 100px;
-  font-size: 2.5rem;
-  font-family: "Bree Serif", serif;
-  margin: 0;
-}
+  address {
+    float: right;
+    position: relative;
+    top: 100px;
+    font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
+    margin: 0;
+  }
 
-.donat {
-  width: 20%;
-  float: right;
-  position: relative;
-  bottom: 950px;
-}
+  .donat {
+    width: 20%;
+    float: right;
+    position: relative;
+    top: -800px;
+  }
 
-footer p {
-  margin-top: 4em;
+  footer p {
+    margin-top: 4em;
   }
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    background-color: #0ff;
+    font-size: 1.3rem;
+  }
 
   .person {
     width: 50%;
@@ -388,13 +417,13 @@ footer p {
     border-radius: 20px;
   }
 
-
   .location {
     font-family: Bungee, cursive;
     font-size: 3rem;
     text-shadow: 7px 7px gold;
     position: relative;
     left: 500px;
+    top: 200px;
   }
 
   .house {
