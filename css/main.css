@@ -9,7 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #00ffff;
+  background-color: #0ff;
 }
 
 header {
@@ -53,25 +53,25 @@ h2 {
   color: black;
   display: inline-block;
   padding: .5em .9em;
-  background-color: #ffff00;
+  background-color: #ff0;
   border-radius: 6px;
   text-decoration: none;
   margin-right: 1.5em;
 }
 
 a:hover {
-  background-color: #cc33ff;
+  background-color: #c3f;
 }
 
 .homepic {
   width: 30%;
-  border: 3px solid #ff3399;
+  border: 3px solid #f39;
   border-radius: 20px;
 }
 
 .homepic2 {
   width: 30%;
-  border: 3px solid #ff3399;
+  border: 3px solid #f39;
   border-radius: 20px;
 }
 
@@ -157,10 +157,9 @@ p {
     font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
-    position: relative;;
+    position: relative;
     left: 900px;
     bottom: 140px;
-    border-radius: 20px;
     border: 2px solid yellow;
 }
 
