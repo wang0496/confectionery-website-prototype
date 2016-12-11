@@ -148,7 +148,6 @@ p {
 
 .button {
     background-color: purple;
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -161,6 +160,7 @@ p {
     left: 900px;
     bottom: 140px;
     border: 2px solid yellow;
+    border-radius: 20px;
 }
 
 .location {
