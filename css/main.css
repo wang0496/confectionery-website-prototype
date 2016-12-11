@@ -12,47 +12,50 @@ html {
   background-color: #0ff;
 }
 
-header {
+@media only screen and (min-width: 20em) {
+
+  header {
   text-align: center;
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.7rem;
+  font-family: "Great Vibes", cursive;
+  font-size: 1rem;
   text-shadow: 2px 2px silver;
 }
 
-h2 {
+  h2 {
   font-size: 1.8rem;
   text-shadow: 2px 2px silver;
 }
 
-.img-flex {
+  .img-flex {
   width: 13%;
   float: left;
   margin-top: -5em;
 }
 
-.img-flex-2 {
+  .img-flex-2 {
   width: 13%;
   float: right;
   margin-top: -5em;
 }
 
 .nav {
-  margin-top: 3em;
+  margin-top: 1em;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
 .nav li {
-  display: inline-block;
+  display: block;
+  margin-top: 1em;
 }
 
 .nav a {
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.8rem;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.3rem;
   color: black;
   display: inline-block;
-  padding: .5em .9em;
+  padding: .3em .5em;
   background-color: #ff0;
   border-radius: 6px;
   text-decoration: none;
@@ -64,21 +67,24 @@ a:hover {
 }
 
 .homepic {
-  width: 30%;
+  width: 80%;
   border: 3px solid #f39;
   border-radius: 20px;
+  margin-left: -1.5em;
 }
 
 .homepic2 {
-  width: 30%;
+  width: 80%;
   border: 3px solid #f39;
   border-radius: 20px;
+  margin-left: -1.5em;
 }
 
 .homepic3 {
-  width: 30%;
+  width: 80%;
   border: 3px solid #f39;
   border-radius: 20px;
+  margin-left: -1.5em;
 }
 
 section {
@@ -111,56 +117,56 @@ section {
 }
 
 dl {
-  padding-left: 55px;
+  padding-left: 0;
   margin-top: 6.8em;
   margin-bottom: 6.5em;
 }
 
 dt {
   font-weight: bold;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   font-size: 2rem;
   color: orange;
 }
 
 dd {
   margin: 0;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   font-size: 1.5rem;
   text-decoration: underline;
 }
 
 .person {
-  width: 28%;
+  width: 100%;
   border: 3px dashed red;
   position: absolute;
   left: 0;
 }
 
 p {
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   font-size: 3rem;
   position: relative;
-  left: 450px;
-  top: 24px;
+  top: 400px;
+  left: 30px;
   text-shadow: 7px 7px yellow;
 }
 
 .button {
-    background-color: purple;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.875rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: relative;
-    left: 900px;
-    bottom: 140px;
-    border: 2px solid yellow;
-    border-radius: 20px;
+  background-color: purple;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.875rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border: 2px solid yellow;
+  border-radius: 20px;
 }
 
 .location {
@@ -170,15 +176,16 @@ p {
 }
 
 .house {
-  width: 30%;
+  width: 100%;
+  position: relative;
+  top: 400px;
 }
 
 address {
   position: relative;
-  left: 400px;
-  bottom: 230px;
+  top: 400px;
   font-size: 2.5rem;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
 }
 
 .donat {
@@ -194,4 +201,220 @@ footer p {
   text-shadow: none;
   position: relative;
   left: 0;
+}
+  }
+
+@media only screen and (min-width: 25em) {
+
+  .person {
+    width: 90%;
+  }
+
+  address {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  }
+
+  .donat {
+    position: relative;
+    bottom: 700px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav a {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    position: relative;
+    left: 165px;
+    top: 160px;
+  }
+
+  p {
+    position: relative;
+    top: 500px;
+    left: 100px;
+  }
+
+  .location {
+    font-family: Bungee, cursive;
+    font-size: 3rem;
+    text-shadow: 7px 7px gold;
+    position: relative;
+    top: 400px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+  margin-top: 3em;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  color: black;
+  display: inline-block;
+  padding: .5em .9em;
+  background-color: #ff0;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 1.5em;
+  }
+
+  .homepic {
+    width: 30%;
+    margin-right: 2em;
+  }
+
+  .homepic2 {
+    width: 30%;
+    margin-right: 2em;
+  }
+
+  .homepic3 {
+    width: 30%;
+  }
+
+  .person {
+  width: 45%;
+  border: 3px dashed red;
+  position: absolute;
+  left: 0;
+}
+
+p {
+  font-family: "Bree Serif", serif;
+  font-size: 3rem;
+  position: relative;
+  left: 450px;
+  top: 24px;
+  text-shadow: 7px 7px yellow;
+}
+
+.button {
+  background-color: purple;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.875rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+
+.location {
+  font-family: Bungee, cursive;
+  font-size: 3rem;
+  text-shadow: 7px 7px gold;
+  position: relative;
+  left: 300px;
+}
+
+.house {
+  width: 30%;
+  position: relative;
+  top: 50px;
+}
+
+address {
+  float: right;
+  position: relative;
+  top: 100px;
+  font-size: 2.5rem;
+  font-family: "Bree Serif", serif;
+  margin: 0;
+}
+
+.donat {
+  width: 20%;
+  float: right;
+  position: relative;
+  bottom: 950px;
+}
+
+footer p {
+  margin-top: 4em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .person {
+    width: 50%;
+  }
+
+  p {
+    position: relative;
+    left: 800px;
+    top: 300px;
+  }
+
+  .button {
+    background-color: purple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 800px;
+    top: -100px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+  }
+
+
+  .location {
+    font-family: Bungee, cursive;
+    font-size: 3rem;
+    text-shadow: 7px 7px gold;
+    position: relative;
+    left: 500px;
+  }
+
+  .house {
+    width: 30%;
+    position: relative;
+    top: 150px;
+  }
+
+  address {
+    float: right;
+    position: relative;
+    top: 300px;
+    font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
+    margin: 0;
+  }
+
+  .donat {
+    width: 20%;
+    position: relative;
+    left: 500px;
+  }
 }
