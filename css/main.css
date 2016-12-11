@@ -164,7 +164,7 @@ p {
 }
 
 .location {
-  font-family: 'Bungee', cursive;
+  font-family: Bungee, cursive;
   font-size: 3rem;
   text-shadow: 7px 7px gold;
 }
